@@ -1,0 +1,37 @@
+
+# Datos originales
+/data/*.csv
+/data/*.xlsx
+
+# Reportes generados
+/output/*.csv
+/output/*.txt
+
+# Archivos antiguos
+/*.csv
+/*.xlsx
+/*.png
+/ventas.txt
+
+# Copia de seguridad
+app_anterior.py
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Archivos temporales
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Archivos del sistema
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
+
+# Informacion sensible
+.env
+.env.*
+!.env.example
